@@ -65,3 +65,23 @@ api gateway와 lambda를 사용해 llm api 제공했던 케이스를 읽어봤�
 핵심은 커넥션 id를 통해 티켓형식으로 llm api에서 필요한 QPM(query per minute) 제어 및 관리 기능을 제공하는 형태였습니다.
 [링크](https://aws.amazon.com/ko/blogs/tech/how-selectstar-builds-ai-redteaming-websocket-api-with-amazon-apigateway/)
 
+## 이동현
+
+### 11/31 목
+> 전회사에서 어드민 개발 했을때 Vue 기반 프로젝트에선 Vuetify, React 기반 프로젝트에선 AntD를 사용했었는데 shadcn은 어떤게 다르고 매력적이라 인기 있는지 궁금해 가볍게 알아봤습니다!  샤드시엔이라고 부른다죠?
+
+shadcn/ui 란?
+- Radix UI와 Tailwind CSS를 기반으로 구축된 React 컴포넌트 컬렉션, 접근성과 커스터마이징에 중점을 두고 있음.
+- 기존의 컴포넌트 라이브러리와 달리, 패키지로 설치하는 것이 아니라 필요한 컴포넌트를 직접 프로젝트에 복사하여 사용하는 것도 가능.
+- 컴포넌트의 소유권을 사용자에게 넘김으로써 직접 코드 수준에서 관리가 가능하여 커스터마이징과 관리의 유연성을 높임.
+
+레퍼런스
+https://ui.shadcn.com/
+https://pyjun01.github.io/v/shadcn-ui/
+
+
+## 이름
+
+### MM/DD d
+
+
