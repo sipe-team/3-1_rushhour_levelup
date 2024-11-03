@@ -12,7 +12,7 @@
 
 - 하나의 기본 이모지는 두 개의 UTF-16 코드 유닛으로 이루어져있고, 하나의 유니코드 코드 포인트를 가진다.
 - 자바스크립트는 내부적으로 UTF-16 인코딩을 사용하기 때문에 기본 이미지의 길이는 2이다.
-- ZWJ(Zero Width Joiner)는 유니코드 문자 U+200D로,  이모지들을 결합하여 새로운 의미를 만드는 특수한 보이지 않는 결합 문자다.
+- ZWJ(Zero Width Joiner)는 유니코드 문자 U+200D로, 이모지들을 결합하여 새로운 의미를 만드는 특수한 보이지 않는 결합 문자다.
 - 이러한 결합 이모지를 ZWJ 시퀀스라고 한다.
 - split('')은 문자열을 UTF-16 코드 유닛 단위로 분리한다.
 - 스프레드 연산자와 Array.from()은 문자열을 유니코드 코드 포인트 단위로 분리한다.
@@ -50,16 +50,19 @@
 ## 강준후
 
 ### 10/30 수
+
 React query 낙관적 업데이트 방법
 React Query에서 뮤테이션이 완료되기 전에 UI를 낙관적으로 업데이트하는 방법을 배웠습니다. onMutate 옵션을 사용하여 캐시를 직접 업데이트해서, useMutation 결과에서 UI를 업데이트할 수 있습니다.
 [React Query 낙관적 업데이트](https://tanstack.com/query/latest/docs/framework/react/guides/optimistic-updates#via-the-ui)
 
 ### 10/31 목
+
 aws api gateway timeout 시간이 기존 30초에서 그 이상으로 늘릴 수 있는 업데이트가 6월에 있었다.
 llm을 사용한 서비스들이 많아지면서 생긴 업데이트라고 한다.
 [링크](https://aws.amazon.com/ko/about-aws/whats-new/2024/06/amazon-api-gateway-integration-timeout-limit-29-seconds/)
 
 ### 11/1 금
+
 어제 이어서 aws api gateway 관련 아티클 확인
 api gateway와 lambda를 사용해 llm api 제공했던 케이스를 읽어봤습니다.
 핵심은 커넥션 id를 통해 티켓형식으로 llm api에서 필요한 QPM(query per minute) 제어 및 관리 기능을 제공하는 형태였습니다.
@@ -67,10 +70,12 @@ api gateway와 lambda를 사용해 llm api 제공했던 케이스를 읽어봤�
 
 ## 이동현
 
-### 11/31 목
-> 전회사에서 어드민 개발 했을때 Vue 기반 프로젝트에선 Vuetify, React 기반 프로젝트에선 AntD를 사용했었는데 shadcn은 어떤게 다르고 매력적이라 인기 있는지 궁금해 가볍게 알아봤습니다!  샤드시엔이라고 부른다죠?
+### 10/31 목
+
+> 전회사에서 어드민 개발 했을때 Vue 기반 프로젝트에선 Vuetify, React 기반 프로젝트에선 AntD를 사용했었는데 shadcn은 어떤게 다르고 매력적이라 인기 있는지 궁금해 가볍게 알아봤습니다! 샤드시엔이라고 부른다죠?
 
 shadcn/ui 란?
+
 - Radix UI와 Tailwind CSS를 기반으로 구축된 React 컴포넌트 컬렉션, 접근성과 커스터마이징에 중점을 두고 있음.
 - 기존의 컴포넌트 라이브러리와 달리, 패키지로 설치하는 것이 아니라 필요한 컴포넌트를 직접 프로젝트에 복사하여 사용하는 것도 가능.
 - 컴포넌트의 소유권을 사용자에게 넘김으로써 직접 코드 수준에서 관리가 가능하여 커스터마이징과 관리의 유연성을 높임.
@@ -79,9 +84,17 @@ shadcn/ui 란?
 https://ui.shadcn.com/
 https://pyjun01.github.io/v/shadcn-ui/
 
+## 송재룡
 
-## 이름
+### 11/1 금
 
-### MM/DD d
+> 도커 컨테이너가 "더 빨리 뜨면" 좋겠다. 어떻게 하면 빨리 띄울 수 있을까?
 
+- 단순 도커 이미지 크기는 생각보다 큰 영향을 미치지 않는다.
+- 실제 영향을 미치는건 Docker Layer의 수다. 레이어를 로드하는 오버헤드를 줄여라.
+- 도커 이미지 레이어는 Dockerfile의 한 줄마다 새로운 이미지 레이어를 쌓는게 아니다. 파일 시스템에 변화가 생길 때, 하나의 레이어를 쌓는다.
 
+#### Reference
+
+- [Reddit - 도커 이미지 크기가 컨테이너 시작에 끼치는 영향](https://www.reddit.com/r/googlecloud/comments/1bponng/docker_image_size_impact_on_container_startup)
+- [최적화 아티클](https://www.fullstack.com/labs/resources/blog/small-is-beautiful-how-container-size-impacts-deployment-and-resource-usage)
