@@ -130,6 +130,7 @@ https://slack.engineering/unified-grid-how-we-re-architected-slack-for-our-large
 
 ### 11/06 수
 - https://evertheylen.eu/p/node-vs-bun/?utm_source=substack
+- https://medium.com/deno-the-complete-reference/node-js-vs-deno-vs-bun-server-side-rendering-performance-comparison-f80a5abc766f
 - Bun과 Node.js의 백엔드 성능을 비교한 글
 - 주요 테스트 결과에서 실제 성능차이는 거의 없음. (node.js가 약간 우세)
 - 다양한 병렬 연결 수(100, 200, 800, 2000)에서도 비슷한 패턴 유지
