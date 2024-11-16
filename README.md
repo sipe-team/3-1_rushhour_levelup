@@ -3,7 +3,7 @@
 &nbsp;
 
 | 이정민 | 사승민 | 송재룡 | 심규보 | 김수빈 | 유지민 | 강준후 | 이동현 |
-| :----- | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| ----- | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | [danmin20](https://github.com/danmin20) | [saseungmin](https://github.com/saseungmin) | [ft-jasong](https://github.com/ft-jasong) | [Anti9uA](https://github.com/Anti9uA) | [sudosubin](https://github.com/sudosubin) | [yoo-jimin127](https://github.com/yoo-jimin127) | [stevejhkang](https://github.com/stevejhkang) | [Donghyeon0908](https://github.com/Donghyeon0908) |
 | [jeong-min.com](https://www.jeong-min.com/) | [haranglog](https://haranglog.tistory.com/) | [Blog](https://jasongdev.tistory.com/) | [Blog](https://medium.com/@didlaak6000) | [Blog](https://medium.com/@sudosubin) | [Blog](https://velog.io/@dev_jiminn/posts) | [Blog](https://stevejhkang.notion.site/257580ca399a4503bab7a8511deaa040) | [Blog](https://dh-2.tistory.com/) |
 
